@@ -12,7 +12,7 @@ Max WP Version: 4.0.1
 
 /**
 	 * Perform text replacements for the shortcode [univis]
-	 
+	 *
 	 * Every univis Link of univis.fau.de is ending with an number which represent the today day 
 	 * Today 10 of September 2013 is = 958, if this number is becoming older than 5 days an error message will appear
 	 * This function is calculating the univis-day before today, it shout be used in a link like this:

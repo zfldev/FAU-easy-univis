@@ -1,7 +1,7 @@
 # FAU-easy-univis
-Shortcode for up-to-date Links to UnivIS entrys
+Wordpress Shortcode for up-to-date Links to UnivIS entrys
 
-Erstellt einen shortcode [univis] welcher Links zu UnivIs-Einträgen der FAU immer auf dem aktuellen Stand hält.
+Erstellt einen Wordpress-Shortcode [univis] welcher Links zu UnivIs-Einträgen der FAU immer auf dem aktuellen Stand hält.
 
 ## Wie geht das?
 Dazu einfach den Teil im Link zum UnivIs-Eintrag hinter „sem=“ mit dem shortcode [univis] ersetzen.

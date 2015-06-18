@@ -5,7 +5,7 @@ Plugin URI: https://www.zfl.fau.de/
 Description: Erstellt einen shortcode [univis] welcher univis Links zu Veranstaltungen der FAU immer auf dem aktuellen Stand haelt. Dazu einfach den Teil hinter sem= mit dem [univis] ersetzen. Also z.B. http://univis.uni-erlangen.de/form?__s=2&dsc=anew/tlecture&tdir=philos/1&anonymous=1&ref=tlecture&sem=[univis]
 Author: Zentrum für Lehrerinnen- und Lehrerbildung der FAU
 Author URI: https://www.zfl.fau.de/
-Version: 1.1
+Version: 1.2
 Min WP Version: 4.0
 Max WP Version: 4.0.1
 */
@@ -60,5 +60,4 @@ function easy_univis_link($atts, $content = null) {
   	
    	return $year.$sem.'&__e='.$univisdate;
 }
-add_shortcode('univisall', 'easy_univis_link');
 add_shortcode('univis', 'easy_univis_link');
